@@ -1,0 +1,29 @@
+#对象形式
+user1:
+  username: hr
+  age: 20
+user2: {username: xiaozhang,age: 22}
+
+#数组List, Set
+pets:
+  - cat
+  - dog
+  - pig
+pets2: [cat,dog,pig]
+
+#配置文件中配置的每一个属性值映射到这个组件中
+#person:
+#  lastName: zhangsan
+#  age: 18
+#  boss: false
+#  birth: 2017/12/12
+#  maps: {k1: v1,k2: v2}
+#  lists:
+#    - lisi
+#    - zhaoliu
+#  dog:
+#    name: 小狗
+#    age: 2
+spring:
+  profiles:
+    active: prod
